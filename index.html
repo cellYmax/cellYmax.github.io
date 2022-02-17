@@ -79,7 +79,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="JVM内存分区"><a href="#JVM内存分区" class="headerlink" title="JVM内存分区"></a>JVM内存分区</h2><p><img src="C:\Users\Yogurt\AppData\Roaming\Typora\typora-user-images\image-20220217222607210.png" alt="image-20220217222607210"></p>
+        <p>title: Hello World</p>
+<h2 id="JVM内存分区"><a href="#JVM内存分区" class="headerlink" title="JVM内存分区"></a>JVM内存分区</h2><p><img src="C:\Users\Yogurt\AppData\Roaming\Typora\typora-user-images\image-20220217222607210.png" alt="image-20220217222607210"></p>
 <ul>
 <li><p>程序计数器：当前线程所执行的字节码的行号指示器，是程序控制流的指示器，分支、循环、跳转、异常处理、线程恢复等基础功能都需要依赖这个计数器来完成。如果线程正在执行的是一个Java方法，这个计数器记录的是正在执行的虚拟机字节码指令的地址，如果正在执行的是本地方法(native)，这个计数器值应为空。它也是唯一一个没有OutOfMemoryError情况的区域。</p>
 </li>
